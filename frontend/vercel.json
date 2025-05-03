@@ -1,5 +1,5 @@
 {
   "routes": [{ "src": "/[^.]+", "dest": "/", "status": 200 }],
-  "buildCommand": "npm run build || true",
-  "ignoreCommand": "true"
+  "buildCommand": "CI=false npm run build",
+  "installCommand": "npm install"
 }
