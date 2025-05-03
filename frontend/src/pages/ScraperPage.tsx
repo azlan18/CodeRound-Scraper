@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react"
 import {
   Zap,
-  ArrowRight,
   RefreshCw,
   CheckCircle,
   XCircle,
@@ -21,6 +20,7 @@ import {
   Code,
   Star,
   Settings,
+  Sparkles,
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Slider } from "@/components/ui/slider"
@@ -356,7 +356,10 @@ const ScraperPage = () => {
                         <span>Progress</span>
                         <span>{Math.round(progress)}%</span>
                       </div>
-                      <Progress value={progress} className="h-2 bg-gray-800" indicatorClassName="bg-indigo-500" />
+                      <Progress 
+                        value={progress} 
+                        className="w-full h-2"
+                      />
                     </div>
                   )}
 
