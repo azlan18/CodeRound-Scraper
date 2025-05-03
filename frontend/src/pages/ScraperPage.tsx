@@ -325,7 +325,7 @@ const ScraperPage = () => {
                 <div className="flex flex-col items-center">
                   <RefreshCw className="h-6 w-6 text-indigo-400 animate-spin mb-4" />
                   <p className="text-gray-400 text-center">
-                    Checking scraper server status... If this is taking time, the server may be spinning up (up to 50 seconds).
+                    Checking scraper server status... If this is taking time, the server may be spinning up (up to 1-2 Minutes).
                   </p>
                 </div>
               ) : healthError ? (
